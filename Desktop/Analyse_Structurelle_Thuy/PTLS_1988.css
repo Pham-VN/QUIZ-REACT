@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+    .colum {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+    margin:5px 2.5%;
+    width:45%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+        text-align: center;
+        margin-bottom: 1.5%
+}
+body {
+    margin-top: 8%;
+    margin-left: 8%;
+    text-align: justify;
+    color: #1d1d1d;
+    line-height: 1.46154em;
+    text-align: justify;
+    text-shadow: 0 0 1px #CCC;
+    font-family: FiraSans Regular;
+    font-size: 18px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+article{
+    font-family: FiraSans Regular;
+    width: auto;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background: white;
+    line-height: 2em;
+    padding: 20px;
+    display: none;
+}   
+.vedette {
+    font-style: italic;
+}
+/* .composant_d_adressage{
+ display: block;
+} */
+.item_en_adresse{
+    margin-top: 2%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #d2310e;
+}
+.finale_flexionnelle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #220ed2;
+}
+.categorie{
+     font-size: 18px;
+}
+.ajoute_categorie_grammaticale {
+    background-color: #3925f4;
+    color: white;
+}
+.zone_de_traitement{
+      display: block;
+/*      background-color:beige;
+*/} 
+.zone_d_identification_etymologique{
+    display: block;
+}
+.ordonnateur_homographe {
+    background-color: aquamarine;
+}
+.composant_morphologique {
+    font-size: 20px;
+}
+.introducteur_pluriel{
+    font-weight: bold;  
+}
+.graphie_pluriel{
+    font-style: italic;
+}
+.etymologie {
+    text-indent: 0pt;
+    line-height: 130%;
+}
+.etymon{
+    font-style: italic;
+}
+/* locution */
+.introducteur_locution{
+    background-color:#FF7800;
+    color:  #000000;
+}
+.locution {
+    font-style: italic;
+}
+.modifie_presentation_phonetique{
+    background-color: chartreuse;
+}
+.composant_synonyme{
+    background-color: rgb(235, 248, 119);
+}
+.complete_le_sens_definition {
+    background-color: rgb(202, 236, 133);
+}
+.ajoute_etymologie {
+    background-color: #3925f4;
+    color: white;
+}
+.subdivision_de_groupe_du_sens{
+    font-family: Verdana;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(41, 122, 249);
+    border: solid 1px rgb(152,31,0);
+    padding: 1pt 2pt;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 1pt;
+    margin-left: 5pt;
+    width: 20px;
+}
+.Unite_traitement_de_item_polylexical {
+    margin-left: 10pt;
+}
+.numero_subdivision {
+    font-family: Verdana;
+    font-size: 70%;
+    font-style: normal;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: solid 1px rgb(152,31,0);
+    padding: 0pt 1pt;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+margin-right: 1pt;
+}
+.subdivition_double_barre {
+    background-color: #2a0eee;
+    color: #fdfdfd;
+}
+.contextualisation {
+    font-style: italic;
+    font-weight: normal;
+}
+.contextualisation_locution {
+    font-style: italic;
+    font-weight: normal;
+}
+.UT_locution {
+    margin-left: 15pt;
+    font-size: 16px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    color: rgb(80, 80, 80);
+    letter-spacing: 0;
+}
+.rubique_thematique {
+    font-weight: bold;
+    border: 1px solid white;
+    width: 12%;
+    padding: 3px;
+}
+.marque_domaniale{
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: #6bdff9;
+    width: 12%;
+    padding: 4px;
+}
+.niveau_langue{
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: #b6df22;
+    width: 12%;
+    padding: 4px;
+}
+.marque_diachronique{
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: #222fdf;
+    color: white;
+    width: 12%;
+    padding: 4px;
+}
+.UT_renvoi {
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: #0c0101;
+    color: white;
+    width: 12%;
+    padding: 4px;
+}
+.supprime_categorie_grammaticale {
+    background-color: #d11010;
+    color: white;
+}
+.information_encyclopedie{
+    margin-left: 1.5%;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 24px 16px;
+  background-color: #eaefff;
+  cursor: pointer;
+  font-size: 21px;
+}
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+#menu {
+      text-align: center;
+      margin-bottom: 1.5%;
+}
