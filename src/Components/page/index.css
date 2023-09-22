@@ -1,0 +1,98 @@
+.listQuiz {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: justify;
+}
+body {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+input[type="radio"],label {
+    
+    padding: 10px;
+    margin: 10px;
+    vertical-align: middle
+  }
+.typeExercice,.mode{
+    background-color:rgb(83, 83, 244);;
+    color: white;
+    text-align: center;
+    padding: 12px 23px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2% 2% 3% 5%;
+    /* le nombre de secondes que doit durer une animation */
+    transition-duration: 0.4s; 
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    height: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  margin-left: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  background: #23798f;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background:#067e56;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.register{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+.subContainer{
+    display: flex;
+    align-items: center;
+}
+/* 
+.subContainer a{
+    float: right;
+    margin-left: 24%;
+} */
+
+.home {
+    font-family:sans-serif; 
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+    background: linear-gradient(to right, #155799, #159957); 
+    color:whitesmoke;
+    margin-left: 15%;
+    margin-right: 36%;
+    padding: 3%;
+    width: 45%;
+    border-radius: 12%;
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
